@@ -1,0 +1,4 @@
+[
+  { "name": "band1", "members": 4, "genres": ["punk", "rock", "metal"] },
+  { "name": "band2", "members": 2, "genres": ["pop", "indie", "rock"] }
+]
