@@ -49,3 +49,5 @@ After sending the login (or get all users) request, use the _id value in the res
 }
 ```
 
+Additionally, sending a login request (or signup) will return JWT in the response. This is needed to access protected routes which are deleting/updating an ad or deleting a user. To test this you can copy the JWT from the response and paste it in the bearer token option in the autherisation section in the postman request.
+
